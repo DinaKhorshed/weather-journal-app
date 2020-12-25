@@ -8,3 +8,6 @@ A Node, Express Project, that uses [Open Weather API](https://openweathermap.org
 2. Open your terminal inside the project directory, then run `npm i`;
 3. Run `npm start`
 4. Navigate to `localhost` port `3000`.
+
+## Demo 
+Click to go to [Demo Page](https://dinakhorshed-weather-journal.herokuapp.com/) 
