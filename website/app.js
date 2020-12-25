@@ -7,7 +7,7 @@ const apiKey = 'a7a119a6a12a8858333ebc05a918646c';
 const desiredUnit = 'metric';
 
 // API Link without Zip Code value
-let apiLink = `http://api.openweathermap.org/data/2.5/weather?units=${desiredUnit}&appid=${apiKey}&zip=`;
+let apiLink = `//api.openweathermap.org/data/2.5/weather?units=${desiredUnit}&appid=${apiKey}&zip=`;
 
 // Get UI elements
 const submitButton = document.getElementById('generate');
