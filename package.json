@@ -2,7 +2,7 @@
   "name": "udacity-weather-app",
   "version": "1.0.0",
   "description": "A Weather app Journal using Node, Express and Javascript",
-  "main": "website/index.html",
+  "main": "/website/index.html",
   "scripts": {
     "start": "node server.js"
   },
@@ -23,6 +23,7 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "http": "0.0.1-security"
   }
 }

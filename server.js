@@ -1,4 +1,4 @@
-/* Empty array to hold Entered weather Data */
+const http = require('http');
 
 /* Express to run server and routes */
 const express = require('express');
@@ -21,16 +21,20 @@ app.use(cors());
 /* Initialize the main project folder*/
 app.use(express.static('website'));
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 /* Spin up the server*/
 
 listening = () => {
+    console.log(`Server running at port `+port);
+}
 
-    console.log(server);
-    console.log(`running on localhost:${port}`);
-};
-const server = app.listen(port, listening);
+const server = http.createServer((req, res) => {
+    res.statusCode = 200;
+    res.setHeader('Content-Type', 'text/html');
+  });
+
+server.listen(port,listening);
 
 /* Empty array to hold Entered weather Data */
 const weatherDetails = [];
