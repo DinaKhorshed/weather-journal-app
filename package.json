@@ -1,0 +1,28 @@
+{
+  "name": "udacity-weather-app",
+  "version": "1.0.0",
+  "description": "A Weather app Journal using Node, Express and Javascript",
+  "main": "website/index.html",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DinaKhorshed/weather-journal-app.git"
+  },
+  "keywords": [
+    "Node",
+    "Express"
+  ],
+  "author": "Dina Khorshed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DinaKhorshed/weather-journal-app/issues"
+  },
+  "homepage": "https://github.com/DinaKhorshed/weather-journal-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
