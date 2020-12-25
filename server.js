@@ -1,5 +1,3 @@
-/* Empty array to hold Entered weather Data */
-
 /* Express to run server and routes */
 const express = require('express');
 
@@ -21,7 +19,8 @@ app.use(cors());
 /* Initialize the main project folder*/
 app.use(express.static('website'));
 
-const port = 3000;
+// added process.env.PORT for cloud deployment
+const port = process.env.PORT || 3000;
 
 /* Spin up the server*/
 
